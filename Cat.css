@@ -1,0 +1,294 @@
+html{
+    font-family: 'Manrope', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: #0E0E0E;
+    width: auto;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 40px;
+}
+
+nav ul li{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.fa-solid{
+    margin-left: 2px;
+    float: right;
+    padding-left: 2px;
+    padding-top: 3%;  
+}
+
+.new{
+    float: left; 
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 180px;
+
+}
+
+.top-left {
+    position: absolute;
+    top: 200px;
+    left: 600px;
+}
+
+
+.product{
+    padding-top: 70px;
+}
+
+h4{
+margin-right: 130px;
+font-size: 0.8em;
+line-height: 1.5em;
+}
+
+.date{
+    padding-top: 20px;
+    padding-left: 980px;
+}
+
+.new2{
+  margin: 0;
+  padding: 0;
+
+}
+
+h2{
+    padding-top: 40px;
+    margin-left: 110px;
+    font-weight: 800;
+}
+
+.row3{
+    display: flex;
+    margin-left: 80px;
+    margin-right: 100px;
+}
+
+.new3{
+    margin: 10px;
+   padding: 20px ;
+  }
+
+.cars{
+    display: inline-block;
+    padding: 0 100px;
+    margin: 0;   
+}
+
+.icon1{
+    margin: 5px;
+    display: inline-block;
+    width: 190px;
+    line-height: 1.5em;
+    padding-bottom: 20px;
+    padding: 0 100px;
+}
+
+.icon2{
+    margin: 5px;
+    display: inline-block;
+    width: 190px;
+    line-height: 1.5em;
+    padding-bottom: 20px;
+    padding: 0 90px;
+}
+
+.icon3{
+    margin: 5px;
+    display: inline-block;
+    width: 190px;
+    line-height: 1.5em;
+    padding-bottom: 20px;
+    padding: 0 30px;
+}
+
+.icon4{
+    margin: 5px;
+    display: inline-block;
+    width: 190px;
+    line-height: 1.5em;
+    padding-bottom: 20px;
+    padding: 0 115px;
+}
+
+.bnav{
+    display: inline-block;
+    padding: 0 75px;
+    margin: 30px;
+    margin-top: 80px;  margin-bottom: 10px; 
+}
+
+.subs1{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 100px;
+}
+
+.subs2{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 150px;
+}
+
+.subs3{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 60px;
+}
+
+.subs4{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 165px;
+}
+
+.subs5{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 100px;
+}
+
+.subs6{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 150px;
+}
+
+.subs7{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 60px;
+}
+
+.subs8{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 165px;
+}
+
+.subs9{
+    margin: 5px;
+    display: inline-block;
+    width: 150px;
+    padding: 0 100px;
+}
+
+.subs10{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 120px;
+}
+
+.subs11{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 90px;
+}
+
+.subs12{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 135px;
+}
+
+.subs13{
+    margin: 5px;
+    display: inline-block;
+    width: 200px;
+    padding: 0 100px;
+}
+
+.subs14{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 70px;
+}
+
+.subs15{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 140px;
+}
+
+.subs16{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 85px;
+}
+
+.subs17{
+    margin: 5px;
+    display: inline-block;
+    width: 150px;
+    padding: 0 100px;
+}
+
+.subs18{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 120px;
+}
+
+.subs19{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 90px;
+}
+
+.subs20{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 135px;
+}
+
+.Bottom{
+    margin-top: 50px;
+    background-color: #0E0E0E;
+    color: white;
+    padding-bottom: 80px;
+}
+
+.copywrite{
+   margin: 40px;
+   text-align: center;
+   font: 0.7em sans-serif;
+   margin-bottom: 0px;
+}
+
+.code{
+    text-align: center;
+    font: 0.7em sans-serif;
+ }

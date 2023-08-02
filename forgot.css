@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(1, 57, 108, 0.55), rgba(1, 57, 108, 0.55)),url(/car-dealer-platform/forgot\ background.png);
+    background-size: cover;
+}
+.container{
+    width: 700px;
+    background: rgba(1, 57, 108, 0.9);
+    mix-blend-mode: hard-light;
+    color: #fff;
+    border-radius: 20px;
+    padding: 30px 125px;
+    margin: 100px 0;
+}
+.container h1{
+    font-size: 38px;
+    text-align: center;
+    padding-top: 140px;
+}
+.container .sub-header{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 100;
+    padding-bottom: 30px;
+}
+.container .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: #d1caca;
+    opacity: 0.8;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    font-size: 16px;
+    color: #1d1b88;
+    padding: 28px 45px 28px 20px;
+}
+.input-box input::placeholder{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.input-box img{
+    position: absolute;
+    right: 480px;
+    transform: translateY(90%);
+    color: #fefcfc;
+    cursor: pointer;
+}
+.container .btn{
+    width: 100%;
+    height: 55px;
+    color: #010A13;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 70px;
+    margin-bottom: 150px;
+}

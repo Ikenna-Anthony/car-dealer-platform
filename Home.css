@@ -1,0 +1,408 @@
+html{
+    font-family: 'Manrope', sans-serif;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 170px;
+    padding-right: 100px;
+    padding-top: 5px;
+    background-color: black; 
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav ul li {
+    color: white;
+    padding: 5px 60px;
+}
+
+.home {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(7, 2, 21, 0.52), rgba(15, 2, 96, 0.73)),
+  url("Homeimages/Rectangle6.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+
+.hero h4{
+    padding-left: 20px;
+    padding-bottom: 25px;
+}
+
+.hero h1{
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 20%;
+}
+
+.btn{
+    width: 170px;
+    height: 50px;
+    padding-right: 30;
+    background-color: rgb(251, 251, 254);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #010a13;
+    box-shadow: 0 0 10px;
+    cursor: pointer;
+}
+
+.cta i{
+    position: relative;
+    right: 40px;
+    top: 50%;
+    font-size: 15px;
+}
+
+.Garage h2, h5{
+   text-align: center;
+   margin: 0;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.Garage h2{
+    margin-top: 70px;
+}
+
+.Garage h5{
+    margin-top: 10px;
+}
+
+.column{
+    display: flex;
+    margin-left: auto;
+    margin-right: 100px;
+}
+  
+.car1, .car2, .car3, .car4{
+    margin: 10px;
+    padding: 20px ;
+}
+
+.column .car2{
+    margin-top: -50px;
+}
+
+.column .car1, .car3, .car4{
+    margin-top: 50px;
+}
+
+.car1alt{
+    display: inline-block;
+    padding: 0 70px;
+    margin: 0;
+}
+
+.cars1{
+    margin: 5px;
+    display: inline-block;
+    width: 190px;
+    line-height: 0.5em;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    text-align: center;
+}
+
+.car2alt{
+    display: inline-block;
+    padding: 0 140px;
+    margin: 0;
+}
+
+.cars2{
+    margin: 5px;
+    display: inline-block;
+    width: 190px;
+    line-height: 0.5em;
+    padding-bottom: 20px;
+    padding-left: 165px;
+}
+
+.car3alt{
+    display: inline-block;
+    padding: 0 40px;
+    margin: 0;
+    margin-left: 50px;
+}
+
+.cars3{
+    margin: 5px;
+    display: inline-block;
+    width: 190px;
+    line-height: 0.5em;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    text-align: center;
+}
+
+.car4alt{
+    display: inline-block;
+    margin: 0;
+    padding-left: 140px;
+    text-align: right;
+}
+
+.cars4{
+    display: inline-block;
+    width: 190px;
+    line-height: 0.5em;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    text-align: right;
+}
+
+.reviews{
+    background-color: #F9F7F7;
+}
+
+.reviews h3{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+.reviews img{
+    margin: 37px;
+    width: 350px;
+}
+
+.about{
+    background-color: #F0EFEF;
+}
+
+.about-img{
+    float: right;
+}
+
+.about h2{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+.about p{
+    margin-left: 30px;
+    padding: 20px;
+    padding-top: 0;
+    line-height: 1.5em;
+}
+
+.about button{
+    width: 200px;
+    height: 50px;
+    background: transparent;
+    border: 1.5em;
+    margin-bottom: 69px;
+    margin-left: 290px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #010a13;
+    box-shadow: 0 0 2px;
+    cursor: pointer;
+}
+
+.bottom{
+    background-color: #0E0E0E;
+    color: white;
+    padding-bottom: 80px;
+}
+
+.bottom p{
+    font-size: small;
+    opacity: 60%;
+}
+
+.bnav{
+    display: inline-block;
+    padding: 0 75px;
+    margin: 30px;
+    margin-top: 80px;  margin-bottom: 10px; 
+}
+
+.subs1{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 100px;
+}
+
+.subs2{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 150px;
+}
+
+.subs3{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 60px;
+}
+
+.subs4{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 165px;
+}
+
+.subs5{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 100px;
+}
+
+.subs6{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 150px;
+}
+
+.subs7{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 60px;
+}
+
+.subs8{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 165px;
+}
+
+.subs9{
+    margin: 5px;
+    display: inline-block;
+    width: 150px;
+    padding: 0 100px;
+}
+
+.subs10{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 120px;
+}
+
+.subs11{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 90px;
+}
+
+.subs12{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 135px;
+}
+
+.subs13{
+    margin: 5px;
+    display: inline-block;
+    width: 200px;
+    padding: 0 100px;
+}
+
+.subs14{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 70px;
+}
+
+.subs15{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 140px;
+}
+
+.subs16{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 85px;
+}
+
+.subs17{
+    margin: 5px;
+    display: inline-block;
+    width: 150px;
+    padding: 0 100px;
+}
+
+.subs18{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 120px;
+}
+
+.subs19{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 90px;
+}
+
+.subs20{
+    margin: 5px;
+    display: inline-block;
+    width: 120px;
+    padding: 0 135px;
+}
+
+.quicklink{
+    text-align: center;
+    opacity: 60%;
+    font-size: small;
+    margin-top: 40px;
+    word-spacing: 1cm;
+}
+
+.copywrite{
+    margin: 40px;
+    text-align: center;
+    font: 0.7em sans-serif;
+    margin-bottom: 0px;
+}
+ 
+.code{
+    text-align: center;
+    font: 0.7em sans-serif;
+}

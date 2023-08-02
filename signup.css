@@ -10,7 +10,7 @@ body{
     display: grid;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(rgba(1, 57, 108, 0.55), rgba(1, 57, 108, 0.55)),url(/car-dealer-platform/background\ signup.jpg);
+    background-image: linear-gradient(rgba(1, 57, 108, 0.55), rgba(1, 57, 108, 0.55)),url(/backgroundsignup.jpg);
     background-size: cover;
 }
 .container{
